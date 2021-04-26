@@ -1,4 +1,4 @@
-header = document.getElementById('header')
+
 form = document.getElementById('form')
 username = document.getElementById('username')
 password = document.getElementById('password')
@@ -11,5 +11,4 @@ form.addEventListener("submit",(e)=>{
 	if(password.value != conPassword.value){
 		alert("Passwords do not match!")
 	}
-	header.innerHTML = `Welcome ${username.value}`
 })
